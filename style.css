@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav {
+    float: right;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('../images/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+.cta {
+    text-decoration: none;
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Section Styles */
+.about-section,
+.program-section,
+.contact-section {
+    background-color: white;
+    padding: 50px 0;
+    margin: 20px 0;
+}
+
+.about-section h2,
+.program-section h2,
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.program-cards {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.program-card {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+/* Footer */
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
